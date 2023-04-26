@@ -12,6 +12,7 @@ Each repository fits into one of the following role keywords:
 | integration | Integrating security into a third party component, such as an API gateway |
 | deployment | Demonstrates an example end-to-end deployment, such as to AWS or Kubernetes |
 | devops | Demonstrates an operational task, such as logging or monitoring |
+| use-case | An end-to-end use case focused on solving a particular problem |
 
 ## Searching on Repositories
 
