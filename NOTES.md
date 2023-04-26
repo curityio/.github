@@ -1,27 +1,47 @@
-# Proposed Guidelines for Setting Tags
+# Proposed Guidelines for Setting Topics
 
-This suggests some guidelines for tags in public GitHub repos.\
+This suggests some guidelines for topics in public GitHub repos.\
 The goal is to make the overall set of public repos coherent and consistent.
 
 ## Code Examples
 
-All code examples use the `code-example` tag so that they can be found together.\
-I have added these tags to each repo.\
-Most commonly clients use OAuth2 and OIDC features, whereas APIs are primarily OAuth2 focused.
+All code examples use the `code-example` topic, to enable this type of search:
+
+- topic:code-example topic:haapi
+
+I have added these default topics to each code example repo, which could be refined further.\
+Most commonly clients use OAuth2 and OIDC features, whereas APIs are primarily OAuth2 focused:
 
 | Type | Default Tags |
 | ---- | ------------ |
-| API | api, oauth2, jwt-validation, ascopes, claims, zero-trust |
+| API | api, oauth2, jwt-validation, scopes, claims, zero-trust |
 | SPA | spa, oauth2, openid-connect |
 | Website | website, oauth2, openid-connect |
 | Mobile App | mobile, oauth2, openid-connect |
 
 ## Programming Languages
 
-These should be derivable from the contents of the repo, and not set in tags.
+To search on a programming language, use the language selector.\
+According to docs, type of search is also supposed to work:
 
-## Technology Stacks
+- language:java
+- language:c#
 
-TODO
+This type of technology stack can also be searched on:
 
-## Tags to Avoid
+- topic:spring-boot
+- topic:dotnet
+
+## Plugins
+
+For all plugins I have added the tag `plugin` and also ensured that the type is included.\
+Other than that I have mostly left tags alone, though some should be removed.
+
+- topic:plugin topic:authentication-action
+
+Topics such as these should be removed from plugins I think:
+
+- curity
+- login (for authenticators)
+- oauth
+- oauth2
