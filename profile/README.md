@@ -59,7 +59,8 @@ authentication-action
 data-access-provider
 ```
 
-You can therefore search on topics like these:
+You can therefore search on particular types of plugin as follows:
 
 ```text
 topic:plugin topic:authentication-action
+```
