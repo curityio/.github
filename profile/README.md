@@ -8,11 +8,11 @@ Each repository fits into one of the following role keywords:
 | -------------- | ----------- |
 | code-example | An OAuth example application, such as an API, mobile app or web app |
 | sdk | A library used by an application, eg, to validate JWTs in APIs or to implement a code flow in a client |
+| module | A utility component or module that you deploy, which implements security, eg a gateway plugin |
 | plugin | A component that extends the behavior of the Curity Identity Server |
-| integration | Integrating security into a third party component, such as an API gateway |
 | deployment | Demonstrates an example end-to-end deployment, such as to AWS or Kubernetes |
 | devops | Demonstrates an operational task, such as logging or monitoring |
-| use-case | An end-to-end use case focused on solving a particular problem |
+| use-case | An end-to-end use case that does not fit into other categories |
 
 ## Searching on Repositories
 
@@ -37,9 +37,21 @@ The following topic keywords are the most common application types:
 Use the following search to filter on a particular programming language:
 
 ```text
+language:kotlin
+language:c#
+```
+
+Use the following search to filter on a particular technology stack:
+
+```text
+topic:spring-boot
+topic:dotnet
 ```
 
 ## Plugin Types
 
 The following are the main types of plugin for the Curity Identity Server:
 
+- alarm-handler
+- authenticator
+- authentication-action
