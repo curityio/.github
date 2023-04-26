@@ -58,7 +58,7 @@ authorization-manager
 claims-provider
 consentor
 data-access-provider
-emailer
+email-sender
 event-listener
 sms-sender
 token-procedure
