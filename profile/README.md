@@ -2,7 +2,7 @@
 
 ## Repository Types
 
-Each repository fits into one of the following role keywords:
+Each repository has one of the following roles:
 
 | Respitory Role | Description |
 | -------------- | ----------- |
