@@ -32,6 +32,20 @@ This type of technology stack can also be searched on:
 - topic:spring-boot
 - topic:dotnet
 
+## Utility Components
+
+Some code example components are not really example apps:
+
+| Type | Default Tags |
+| ---- | ------------ |
+| sdk | A library that you plug in, has tags named after the type of component it is used in |
+| oauth-agent | A utility API that you deploy |
+
+You can find all instances with a search like this:
+
+- topic:sdk
+- topic:oauth-agent
+
 ## Plugins
 
 For all plugins I have added the tag `plugin` and also ensured that the type is included.\
