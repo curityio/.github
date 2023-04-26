@@ -44,14 +44,22 @@ language:c#
 Use the following search to filter on a particular technology stack:
 
 ```text
-topic:spring-boot
-topic:dotnet
+topic:api topic:spring-boot
+topic:website topic:dotnet
 ```
 
 ## Plugin Types
 
 The following are the main types of plugin for the Curity Identity Server:
 
-- alarm-handler
-- authenticator
-- authentication-action
+```text
+alarm-handler
+authenticator
+authentication-action
+data-access-provider
+```
+
+You can therefore search on topics like these:
+
+```text
+topic:plugin topic:authentication-action
