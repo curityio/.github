@@ -2,7 +2,7 @@
 
 ## Repository Types
 
-Each repository demonstrates
+Each repository fits into one of the following role keywords:
 
 | Respitory Role | Description |
 | -------------- | ----------- |
@@ -15,8 +15,8 @@ Each repository demonstrates
 
 ## Searching on Repositories
 
-Each component type is a topic that you can search on and combined with other topic keywords.\
-This can be combined to narrow down your search:
+Each role is a GitHub topic that you can search on, and combine with other topic keywords.\
+Keywords can be combined in order to narrow down your search:
 
 ```text
 topic:code-example topic:api topic:spring-boot
@@ -24,7 +24,7 @@ topic:code-example topic:api topic:spring-boot
 
 ## Code Example Types
 
-The following topic keywords are the main application types:
+The following topic keywords are the most common application types:
 
 | Application Type | Description |
 | ---------------- | ----------- |
