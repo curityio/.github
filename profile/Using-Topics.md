@@ -1,4 +1,4 @@
-# Finding Repos by Topic
+# Finding Resources by Topic
 
 ## Repository Types
 
