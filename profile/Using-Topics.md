@@ -2,7 +2,7 @@
 
 ## Repository Types
 
-Each repository has one of the following roles, represented by a topic:
+Each repository has one of the following roles:
 
 | Type | Description |
 | ---- | ----------- |
