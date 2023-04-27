@@ -9,10 +9,10 @@ Each repository has one of the following roles:
 | code-example | An OAuth example application, such as an API, mobile app or web app |
 | sdk | A library used by an application, eg, to validate JWTs in APIs or to implement a code flow in a client |
 | plugin | A component that extends the behavior of the Curity Identity Server |
-| utility | A utility component or module that you deploy, which implements security, eg a gateway plugin |
+| module | A utility component or module that you deploy, which implements security, eg a gateway plugin |
 | deployment | Demonstrates an example end-to-end deployment, such as to AWS or Kubernetes |
 | devops | Demonstrates an operational task, such as logging or monitoring |
-| use-case | An end-to-end use case that does not fit into other categories |
+| use-case | An end-to-end use case to demonstrate an identity related solution |
 
 Keywords can be combined in order to narrow down your search:
 
