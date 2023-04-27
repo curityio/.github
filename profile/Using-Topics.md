@@ -32,13 +32,7 @@ The following topic keywords are the most common application types:
 | website | A website with a backend |
 | mobile | A mobile application |
 
-Use the following search to filter on a particular programming language:
-
-```text
-language:kotlin
-language:c#
-```
-
+Use the language selector to filter on a particular programming language.\
 Use the following search to filter on a particular technology stack:
 
 ```text
